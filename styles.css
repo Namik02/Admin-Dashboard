@@ -38,3 +38,8 @@ main {
     grid-area: main;
 }
 
+img {
+    height: 20px;
+    width: auto;
+}
+
