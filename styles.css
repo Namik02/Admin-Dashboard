@@ -75,19 +75,40 @@ header {
 
 
 
-
-
-
-
-
-
-
-
 main {
     background-color: #e0f2fe;
 
     grid-area: main;
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "yourProjects announcements"
+    "yourProjects trending";
+
 }
+    main section {
+        margin: 10px;
+}
+    #yourProjects {
+        grid-area: yourProjects;
+}
+    #announcements {
+        grid-area: announcements;
+}
+    #trending {
+        grid-area: trending;
+}
+
+
+
+
+
+
+
+
+
 
 img {
     height: 2rem;
