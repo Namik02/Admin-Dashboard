@@ -93,7 +93,13 @@ main {
 }
     #yourProjects {
         grid-area: yourProjects;
+        
 }
+        .projects {
+            background-color: red;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
     #announcements {
         grid-area: announcements;
 }
@@ -107,7 +113,9 @@ main {
 
 
 
-
+#test {
+    background-color: white;
+}
 
 
 img {
